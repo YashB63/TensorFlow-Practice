@@ -1,0 +1,16 @@
+Hyperparameter                                               Typical Value
+Input Layer Shape            Same shape as number of features (eg: 3 for # bedrooms, # bathrooms, # car spaces in housing price prediction)
+Hidden layer(s)              Problem specific, minimum = 1, maximum = unlimited
+Neurons per hidden Layer     Problem specific, generally 10 to 100
+Output layer shape           Same shape as desired prediction shape ( eg. 1 for house price)
+Hidden activation            Usually ReLU ( rectified linear unit)
+Output activation            None, ReLU, logistic/tanh
+Loss Function                MSE(mean square error) or MAE(mean absolute error)/Huber(combination of MAE/MSE) if outliers
+Optimizer                    SGD(Stochastic gradient descent), Adam
+
+
+
+1. Create a model(Specified to your problem)
+2. Compile the model
+3. Fit the model
+
