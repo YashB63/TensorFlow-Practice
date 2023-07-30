@@ -1,0 +1,9 @@
+What we are going to cover:
+
+- Architecure of a neural network classification model
+- Input shapes and output shapes of a classification model(features and labels)
+- Creating custom data to view and fit
+- Steps in modelling 
+    - Creating a model, compiling a model, fitting a model, evaluating a model
+- Different classification evaluation methods
+- Saving and loading models
