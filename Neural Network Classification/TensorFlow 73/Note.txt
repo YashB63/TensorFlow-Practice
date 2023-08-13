@@ -1,0 +1,11 @@
+Nice! It looks like our model is almost perfectly (apart from a few examples) 
+seperating the two circles.
+
+Question: What's wrong with the predictions we have made? Are we really evaluating our
+model correctly here? Hint: What data did the model learn on and what did we predict on?
+
+Before we answer that, it's important to recognize what we have just covered.
+
+Note: The combination of linear(straight lines) and non-linear (non-straight lines)
+functions is one of the key fundamentals of neural networks.
+
