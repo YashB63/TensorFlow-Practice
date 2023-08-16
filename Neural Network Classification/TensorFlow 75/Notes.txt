@@ -1,0 +1,20 @@
+Now, when we started to create our model we said it was going to be the same as 
+earlier models but you might have found that to be a little lie.
+
+That's because we have chaanged a few things:
+
+    - The activation parameter: We used strings ("relu" and "sigmoid") instead of using 
+    library paths (tf.keras.activations.relu), in TensorFlow, they both offer the 
+    same functionality.
+
+    - The learning_rate parameter: We increased the learming_rate parameter in 
+    the Adam optimizer to 0.01 instead of 0.001 ( an increase of 10x)
+
+        - You can think of learning rate as how quickly a model learns. 
+        The higher the learning rate, the faster the model's capacity to learn, 
+        however, there's such a thing as a too high learning rate, where a model tried 
+        to learn too fast and doesn't learn anything. We will see a trick to find the 
+        ideal learning rate soon.
+
+    -  The number of epochs: A single epoch is the model trying to learn patterns in 
+    the data by looking at it once, so 100 epochs means the model gets 100 chances.
