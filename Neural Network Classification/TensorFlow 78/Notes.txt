@@ -1,0 +1,4 @@
+As you can see the learning rate exponentially increases as the number of epochs increases.
+
+And you can see the mmodel's accuracy goes up (and loss goes down) at a specific point 
+when the learning rate slowly increases.
