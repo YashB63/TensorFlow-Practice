@@ -1,0 +1,6 @@
+To figure out the ideal value of learning rate (atleast the ideal value to begin training
+our model) , the rule of thumb is to take the learning rate value where the loss is stil
+decreasing but not quite flattened out (usually about 10x smaller than the bottom os the
+curve).
+
+In this case, our ideal learning rate ends up between 0.01(10^-1) and 0.02.
