@@ -1,0 +1,7 @@
+And as we can see, almost perfect again.
+
+These are the kind of experiments you'll be running often when building your own models.
+
+Start with default settings and see how they perform on your data.
+
+And if they don't perform as well you'd like, improve them.
