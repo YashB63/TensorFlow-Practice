@@ -1,0 +1,21 @@
+Working with larger example (multiclass classification):
+
+We have seen a binary classsification example (predictiong is a data point is a part
+of red circle or blue circle) but what if you had multiple different classes of things?
+
+For example, say you were a fashion company and you wanted to build a neural network 
+to predict whether a piece of clothing was a shoe, a shirt 
+or a jacket(3 different options).
+
+When you have more than two classes as an option, this is known as multiclass classification.
+
+The good news is, the things we have learn't so far (with a few tweaks) can be
+applied to multiclass classification problems as well.
+
+Let's see it in action.
+
+To start, we will need some data. The good thing for us is TensorFlow has a multiclass
+classification dataset known as Fashion MNIST built-in. Meaning we can get started
+straight away.
+
+We can import it using the tf.keras.datasets module.
