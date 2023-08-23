@@ -1,0 +1,28 @@
+Alright, let's build a model to figure out the relationship between the pixel values and their labels.
+
+Since this is a multiclass classification problem, we will need to make a few changes
+to our architecture.
+
+    - The input shape will have to deal with 28x28 tensors (the height and width of
+    our images). 
+        - We are actually going to squash the input into a tensor (vector) of shape (784).
+    
+    - The output shape will have to be 10 because we need our model to predict for 10 
+    different classes.
+        - We will also change the activation parameter of our output layer to be "softmax"
+        instead of 'sigmoid'. As we will see "softmax" activation function outputs a series
+        of values between 0 and 1(the same shape as output shape, which together add up to
+        ~1.) The index with the highest value is predicted by model to be the most likely class.
+
+    - We will need to change our loss function from a binary loss function to a multiclass
+    loss function.
+        - More specifically, since our labels are in integer form, we will use
+        tf.keras.losses.SparseCategoricalCrossentropy(), if our labels were one-hot
+        encoded (eg. they looked something like [0,0,1,0,0...]), we would use
+        tf.keras.losses.CategoricalCrossentropy().
+    
+    - We will also use the validation_data parameter when calling the fit() function. 
+    This will give us an idea of how the model performs on the test set during training.
+
+    
+  
