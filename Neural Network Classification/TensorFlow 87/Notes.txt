@@ -1,9 +1,0 @@
-Wow. From these two plots, we can see how much quicker our model with the normalized
-data model_1 improved than the model with the non-normalized data(model).
-
-    Note: The same model with even slightly different data can produce dramatically different
-    results. So when you are comparing models, it's important to make sure you are comparing them
-    on the same criteria (e.g. same architecture but different data or same data but
-    different architecture).
-
-    
